@@ -1,0 +1,29 @@
+.filter {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 2%;
+}
+
+.filter select,
+.filter input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter select {
+  width: 150px;
+}
+
+.filter input[type="text"] {
+  width: 200px;
+  border-radius: 4px;
+}
+
+.filter select:focus,
+.filter input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
